@@ -1,3 +1,7 @@
+pipeline {
+    /* insert Declarative Pipeline here */
+
+
 node {
     // Adds timestamps to the output logged by steps inside the wrapper.
     timestamps {
@@ -13,4 +17,5 @@ node {
         stage "Second echo"
         echo "Wonder what time it is now?"
     }
+}
 }
