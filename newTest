@@ -1,1 +1,8 @@
-
+Pipeline{
+agent any
+  stages{
+    stage('Build'){
+     echo "Build code...."
+    }
+  }
+}
